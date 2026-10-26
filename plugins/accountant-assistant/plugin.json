@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "accountant-assistant",
+  "version": "0.2.2",
+  "description": "Russian bookkeeping assistant for CSV reconciliation, cash-flow reports, USN, VAT, PSN and AUSN preliminary review.",
+  "author": {
+    "name": "Кирилл"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Бухгалтер",
+        "shortDescription": "Бухгалтерия и налоги РФ",
+        "longDescription": "Русскоязычный помощник для российских ИП и ООО: анализ банковских выписок и CSV/Excel, сверка, денежные потоки, первичные документы, предварительные проверки УСН, НДС, ПСН и АвтоУСН. Без интеграции с 1С, ФНС и банками; без хранения данных и автоматической сдачи отчётности.",
+        "developerName": "Кирилл",
+        "category": "Finance",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Проверь мою банковскую выписку и подготовь отчёт по денежным потокам.",
+          "Помоги проверить налоги ИП на УСН в России в 2026 году."
+        ]
+      }
+    }
+  }
+}
