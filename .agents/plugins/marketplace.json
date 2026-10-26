@@ -1,0 +1,20 @@
+{
+  "name": "buhgalter-ru",
+  "interface": {
+    "displayName": "Бухгалтер — бесплатные плагины"
+  },
+  "plugins": [
+    {
+      "name": "accountant-assistant",
+      "source": {
+        "source": "local",
+        "path": "./plugins/accountant-assistant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    }
+  ]
+}
