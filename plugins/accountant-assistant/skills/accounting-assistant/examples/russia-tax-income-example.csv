@@ -1,0 +1,8 @@
+source_id,date,amount_rub,kind
+x001,2025-01-13,7800000,usn_income
+x002,2025-06-20,6200000,usn_income
+x003,2025-12-29,6500000,usn_income
+x004,2026-01-12,9500000,usn_income
+x005,2026-02-14,8500000,usn_income
+x006,2026-03-19,4100000,usn_income
+x007,2026-03-31,1500000,excluded
